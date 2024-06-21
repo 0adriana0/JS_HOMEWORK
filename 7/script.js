@@ -43,3 +43,18 @@ for (let i = 1; i < numbers6.length; i++) {
 }
 
 console.log(`Max: ${max}`);
+//!7
+let numbers7 = [2, 45, 7, 23, 56, 80, 34, 19, 67, 25];
+
+let evenNumbers = [];
+
+for (let i = 0; i < numbers7.length; i++) {
+  if (numbers7[i] % 2 === 0) {
+    evenNumbers.push(numbers7[i]);
+  }
+}
+
+console.log("Numbers:");
+for (let i = 0; i < evenNumbers.length; i++) {
+  console.log(` ${evenNumbers[i]}`);
+}
