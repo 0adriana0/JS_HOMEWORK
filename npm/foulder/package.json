@@ -1,0 +1,14 @@
+{
+  "name": "foulder",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Adriana",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
